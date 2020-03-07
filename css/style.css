@@ -38,7 +38,7 @@ body::before {
   top: 0;
   width: 100vw;
   height: 100vh;
-  perspective: 1000px;
+  perspective: 1500px;
 }
 
 .house {
@@ -54,21 +54,18 @@ body::before {
   top: 0;
   width: 100vw;
   height: 100vh;
-  /* background: rgba(255, 255, 255, 0.8); */
   background: rgba(0, 0, 0, 0.8);
 }
 
 .wall-left {
-  width: 1000vw;
-  /* background: #f8f8f8; */
+  width: 1600vw;
   background-image: url('../image/background.jpg');
-  transform: rotateY(90deg) translateZ(-500vw);
+  transform: rotateY(90deg) translateZ(-800vw);
 }
 .wall-right {
-  width: 1000vw;
-  /* background: #f8f8f8; */
+  width: 1600vw;
   background-image: url('../image/background.jpg');
-  transform: rotateY(90deg) translateZ(-400vw);
+  transform: rotateY(90deg) translateZ(-700vw);
 }
 
 .wall-front-a {
@@ -83,6 +80,9 @@ body::before {
 .wall-front-d {
   transform: translateZ(-500vw);
 }
+.wall-front-e {
+  transform: translateZ(-800vw);
+}
 
 .wall-content {
   display: flex;
@@ -91,10 +91,6 @@ body::before {
   height: 100vh;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  /* background-image: url('https://t1.daumcdn.net/brunch/service/user/41jj/image/3J9wbNVg9LhMQQsoFxHXngT2EjY.jpg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 
 .wall-img-a {
@@ -132,6 +128,15 @@ body::before {
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 50px;
+}
+
+.wall-img-e {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../image/last_wall.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .wall-text {

@@ -9,7 +9,7 @@
 
   window.addEventListener('scroll', function() {
     const scrollPer = pageYOffset / maxScrollValue;
-    const zMove = scrollPer * 950 - 490;
+    const zMove = scrollPer * 1200 - 490;
     houseElem.style.transform = `translateZ(${zMove}vw)`;
 
     //progress bar
