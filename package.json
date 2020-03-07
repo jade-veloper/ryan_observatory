@@ -6,5 +6,5 @@
     "deploy": "gh-pages -d build",
     "predeploy": "yarn run build"
   },
-  "homapage": "https://jade-veloper.github.io/ryan_observatory"
+  "homepage": "https://jade-veloper.github.io/ryan_observatory"
 }

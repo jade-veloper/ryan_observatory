@@ -15,9 +15,20 @@ body {
     'Malgun Gothic', sans-serif;
   -webkit-overflow-scrolling: touch;
   color: #555;
-  /* background: #fff000; */
-  background: #fab005;
+  /* background: #04022e; */
+  background: url('../image/background.jpg');
   transition: background 0.5s;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.86);
+  position: fixed;
 }
 
 /* WORLD */
@@ -44,19 +55,19 @@ body {
   width: 100vw;
   height: 100vh;
   /* background: rgba(255, 255, 255, 0.8); */
-  background: rgba(255, 249, 219, 0.7);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .wall-left {
   width: 1000vw;
   /* background: #f8f8f8; */
-  background: #fcc419;
+  background-image: url('../image/background.jpg');
   transform: rotateY(90deg) translateZ(-500vw);
 }
 .wall-right {
   width: 1000vw;
   /* background: #f8f8f8; */
-  background: #fcc419;
+  background-image: url('../image/background.jpg');
   transform: rotateY(90deg) translateZ(-400vw);
 }
 
@@ -78,10 +89,71 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  /* background-image: url('https://t1.daumcdn.net/brunch/service/user/41jj/image/3J9wbNVg9LhMQQsoFxHXngT2EjY.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.wall-img-a {
+  width: 80vh;
+  height: 80vh;
+  background-image: url('../image/bb001.gif');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+}
+.wall-img-b {
+  width: 80vh;
+  height: 80vh;
+  background-image: url('../image/bb002.gif');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+}
+.wall-img-c {
+  width: 80vh;
+  height: 80vh;
+  background-image: url('../image/bb003.gif');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+}
+.wall-img-d {
+  width: 80vh;
+  height: 80vh;
+  background-image: url('../image/bb004.gif');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+}
+
+.wall-text {
+  width: 85vh;
+  height: 80vh;
+  color: white;
+  margin-left: 50px;
+}
+
+.text-block {
+  display: flex;
+  align-items: center;
 }
 
 .wall-title {
-  font-size: 5rem;
+  font-size: 5em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.wall-story {
+  font-size: 3em;
 }
 
 .progress-bar-con {
