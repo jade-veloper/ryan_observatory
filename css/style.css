@@ -158,7 +158,10 @@ body::before {
 }
 
 .wall-story {
-  font-size: 3em;
+  font-size: 1.5em;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  line-height: 2em;
 }
 
 .progress-bar-con {
