@@ -16,7 +16,7 @@ body {
   -webkit-overflow-scrolling: touch;
   color: #555;
   /* background: #04022e; */
-  background: url('../image/background.jpg');
+  background: url('../image/nightsky.jpg');
   transition: background 0.5s;
 }
 
@@ -59,12 +59,12 @@ body::before {
 
 .wall-left {
   width: 1600vw;
-  background-image: url('../image/background.jpg');
+  background-image: url('../image/nightsky.jpg');
   transform: rotateY(90deg) translateZ(-800vw);
 }
 .wall-right {
   width: 1600vw;
-  background-image: url('../image/background.jpg');
+  background-image: url('../image/nightsky.jpg');
   transform: rotateY(90deg) translateZ(-700vw);
 }
 
@@ -177,7 +177,7 @@ body::before {
 .progress-bar {
   width: 0;
   height: 100%;
-  background: #00a8ff;
+  background: #00d9ff;
 }
 
 /* character */
